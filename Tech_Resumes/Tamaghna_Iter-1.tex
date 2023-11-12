@@ -1,0 +1,209 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Tamaghna Choudhuri} \\ \vspace{1pt}
+    \small +91-7980429812 $|$ \href{mailto:x@x.com}{\underline{tamaghna.official@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/tamaghna-choudhuri}} $|$
+    \href{https://github.com/...}{\underline{github.com/samyxandz}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute Of Information Technology}{Kalyani, WB}
+      {Bachelor of Technology in Computer Science and engineering}{Nov 2022 -- present}
+    %    \resumeItemListStart
+     %       \resumeItem
+      %    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Machine Learning Lead}{Oct 2023 -- Present}
+      {Google Student Developers Clubs, IIIT Kalyani}{Kalyani, WB}
+      \resumeItemListStart
+        \resumeItem{Served As a core member and as the Machine learning Development lead for GDSC}
+        \resumeItem{Acted as a repo maintainer for GDSC IIIT kalyani organisation on GitHub}
+        \resumeItem{Engaged in conducting and speaking at sessions which gather a total footfall around 2000}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{GenAICare} $|$ \emph{Python, Scikit-Learn, JavaScript, Node, Express, React, StreamLit, MongoDB }}{Jul 2023 -- Sep 2023}
+          \resumeItemListStart
+            \resumeItem{Spearheaded development of full-stack web application with integrated machine learning within 48 hours for an MLH Hackathon}
+            \resumeItem{Wrote the Back end for the project, including the API in Express with MongoDB as the database  }
+            \resumeItem{ Implemented 4 ML models and deployed them to StreamLit}
+            \resumeItem{Used Auth0 to implement seamless sign-on to the application  }
+            \resumeItem{Build,tested And deployed the app with components such as the Database being hosted on the cloud using MongoDB atlas}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{GDSC-IIITK/Hacktober-Fest-2023} $|$ \emph{Flask, HTML, Tailwind-CSS, GitHub-API}}{Oct 2023 -- Nov 2023}
+          \resumeItemListStart
+            \resumeItem{Acted as one of the maintainers for the Hactoberfest held by GDSC IIITK }
+            \resumeItem{Leveraged the GitHub API to make a contributor dashboard for the Hacktober website Back end}
+            \resumeItem{responsibilities include reviewing pull request,merging them,resolving merge conflicts and decisions on the project}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{ML-playground} $|$ \emph{TensorFlow, Trax, NLTK, Python, Jupyter Notebook}}{Oct 2023 -- Nov 2023}
+          \resumeItemListStart
+            \resumeItem{ Repo containing all the machine learning code for models developed and currently being developed }
+            \resumeItem{Contains an Auto-Complete model, Build using the N-gram model}
+            \resumeItem{A model implementing Auto-correct using statistical methods and the Bayes rule }
+            \resumeItem{Currently working on Neural Machine Translation model }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Rust, Python, C/C++, SQL (Postgres), NOSQL (MongoDB, Neo4J), JavaScript, HTML/CSS, R, x86 assembly} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, Django} \\
+     \textbf{Developer Tools}{: Git, Docker, NVim, R-studio, Jupyter Notebooks } \\
+     \textbf{Libraries}{: Tensorflow, Trax, pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\section{Achievements}
+    % \resumeSubHeadingListStart
+    %   \resumeProjectHeading
+    %       {}{}
+          \resumeItemListStart
+        \resumeItem{ Received The Scholar Batch award for Outstanding performance in All India Senior School Certificate Examination 2022 }
+        \resumeItem{Received an award for Outstanding performance and being school topper in 2 subjects: Social Science, Information Technology  in the All India Secondary School Examination 2020 }
+        \resumeItem{Qualified for Pre-RMO in 2019,2020 conducted by Homi Bhava Atomic Research Institute}
+          \resumeItemListEnd      
+    % \resumeSubHeadingListEnd
+
+\end{document}
+
+
